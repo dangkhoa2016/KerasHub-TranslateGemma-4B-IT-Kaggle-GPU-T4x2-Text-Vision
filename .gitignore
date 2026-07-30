@@ -1,0 +1,36 @@
+# Local configuration and secrets
+.env
+data/api_key.txt
+data/restart_secret.txt
+data/tunnel_url.txt
+data/input.txt
+data/environment.json
+
+# Runtime output
+log/*
+!log/.gitkeep
+state/*
+!state/.gitkeep
+bin/cloudflared
+
+# Python / IDE / OS
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+.cache/
+.virtual_documents/
+temp
+
+# Model/cache material
+models/
+huggingface/
+
+# Key material
+*.pem
+*.key
+*.p12

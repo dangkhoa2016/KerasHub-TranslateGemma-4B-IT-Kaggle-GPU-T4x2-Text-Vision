@@ -1,0 +1,7 @@
+# Kaggle normally provides a CUDA-compatible JAX/JAXLIB pair. Do not blindly
+# replace it with a generic CPU wheel. scripts/setup.sh verifies JAX separately.
+Flask>=3.1,<4
+keras>=3.13,<3.14
+keras-hub>=0.26,<0.27
+Pillow>=10
+numpy>=1.26

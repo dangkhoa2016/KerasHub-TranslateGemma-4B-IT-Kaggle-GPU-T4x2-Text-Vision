@@ -1,0 +1,3 @@
+English|Vietnamese|Hello, world!
+Vietnamese|English|Xin chào, rất vui được gặp bạn.
+Japanese|Vietnamese|今日はいい天気ですね。
